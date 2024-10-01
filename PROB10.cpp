@@ -48,11 +48,11 @@ int main(){
   Person p2("kamath",28);
   p1.print_info();
   p2.print_info();
-
-  Student s1("swa",99,"ECE");
+  
+  Student s1("dep_test",12,"ECE");
   s1.print_info();
-
-  Teacher t1("thik", 35, 40000000);
+  
+  Teacher t1("salary_test", 35, 40000);
   t1.print_info();
   return 0;
 }
