@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Person {
     public:
         Person(string name, int age) {
@@ -44,12 +41,12 @@ class Teacher : public Person{
 
 
 int main(){
-  Person p1("Swasthik",19);
-  Person p2("kamath",28);
+  Person p1("swasthik",27);
+  Person p2("Kamath",28);
   p1.print_info();
   p2.print_info();
 
-  Student s1("swasthik",27,"ECE");
+  Student s1("aaaa",11,"ECE");
   s1.print_info();
   return 0;
 }
